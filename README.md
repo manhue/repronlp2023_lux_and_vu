@@ -1,6 +1,10 @@
 # ReproNLP 2023, Track C: Reproduction of human evaluation in Lux and Vu 2022
 This repository contains code, data and information for our participation in the ReproNLP 2023 Shared Task, Track C, reproduction of evaluation in Lux &amp; Vu 2022.
 
+## How to run
+* The Python scripts do not have any parameters, so they can be run with `python <name_of_script>`. Please use Python 3. In order to reproduce the results of _random_videos.py_, you need to use Python version 3.6.9.
+* The R script can be run with `Rscript statistical_analysis.r` or in RStudio.
+
 ## Directories
 * _additional statistical analysis_:
   *  _plots_: generated boxplots and heatmaps
