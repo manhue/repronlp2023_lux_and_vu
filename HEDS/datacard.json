@@ -1,0 +1,1044 @@
+{
+    "heds-criteria-criterion-response_elicitation-response_aggregation": {
+        "data": {
+            "Naturalness": "For each of the two systems being evaluated, there are two conditions: low-resource and baseline.\n\nAggregation method 1, per-label global aggregation: within each system, the preference ratings of all evaluators are aggregated and percentages are calculated for \"low-resource\", \"baseline\" and \"equal\".\n\nAggregation method 2, per-person preference data: for each evaluator, within each system, we calculate the number of times the person agreed that \"the low-resource system is better than the baseline\" in relation to all judgements."
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-evaluation_mode-objective_or_subjective-1": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-paper_and_resources-names_and_affiliations-person_completing_this_sheet-affiliation": {
+        "data": {
+            "": "Zurich University of Applied Sciences (ZHAW)"
+        },
+        "control": {}
+    },
+    "heds-paper_and_resources-names_and_affiliations-person_completing_this_sheet-name": {
+        "data": {
+            "": "Manuela Hürlimann"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-criteria-output_aspect-1": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-expertise-other_text": {
+        "data": {
+            "": ""
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-expertise-1": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-form_of_response-10": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-scale_presented_as-2": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-system-tasks-20": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "20. other (please describe)"
+        }
+    },
+    "heds-paper_and_resources-names_and_affiliations-contact_author-affiliation": {
+        "data": {
+            "": "N/A"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-form_of_response-7": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-form_of_response-5": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-experimental_design-quality_assurance-description": {
+        "data": {
+            "": "This was not formally checked: evaluators should self-identify as native speakers of German or Swiss German"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-experimental_design-experimental_conditions-1": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "1. evaluation carried out by evaluators at a place of their own choosing, e.g. online, using a paper form, etc."
+        }
+    },
+    "heds-ethics-review_body": {
+        "data": {
+            "": "No - our university does not forsee an ethical check for this type of experiment (hence, it can be considered an implicit approval)."
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-effect_size_method": {
+        "data": {
+            "Naturalness": "Linear mixed-effects model"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-evaluation_mode-intrinsic_or_extrinsic-1": {
+        "data": {
+            "Naturalness": true
+        },
+        "control": {},
+        "text": {
+            "Naturalness": "1. Intrinsic"
+        }
+    },
+    "heds-criteria-criterion-evaluation_mode-objective_or_subjective-other_text": {
+        "data": {
+            "Naturalness": ""
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-scale_presented_as-other_text": {
+        "data": {
+            "Naturalness": ""
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-description": {
+        "data": {
+            "": "N/A"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-sample-number_of_system_outputs": {
+        "data": {
+            "": "There are two different systems with two configurations each. Per system, there are 12 outputs (audios generated with TTS), i.e., 6 for each configuration. Each question asks to compare two outputs of the same system, which are based on the same input text, where one is produced with configuration A and the other with configuration B."
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-intra_annotator-intra_annotator_agreement-1": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-size_of_scale-2": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-criteria-criterion-evaluation_mode-absolute_or_relative-1": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-experimental_design-quality_assurance-method-1": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "1. evaluators are required to be native speakers of the language they evaluate."
+        }
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-payment-other_text": {
+        "data": {
+            "": ""
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-experimental_design-experimental_conditions-other_text": {
+        "data": {
+            "": ""
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-form_of_response-9": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-criteria-criterion-evaluation_mode-intrinsic_or_extrinsic-2": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-criteria-criterion-criteria-quality_type-1": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-experimental_design-evaluators_can_ask_questions-4": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "4. other (please describe)"
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-task_description": {
+        "data": {
+            "Naturalness": "N/A"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-participant_criterion_name": {
+        "data": {
+            "Naturalness": "N/A"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-intra_annotator-intra_annotator_agreement-3": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-experimental_design-experimental_conditions-7": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-intra_annotator-intra_annotator_agreement_score": {
+        "data": {
+            "Naturalness": "N/A"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-form_of_response-2": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-experimental_design-evaluators_can_ask_questions-other_text": {
+        "data": {
+            "": "At the end of the online survey, they are shown an email address where they can direct questions. \nNote: no questions were received."
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-are_authors-2": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "2. evaluators do not include any of the authors"
+        }
+    },
+    "heds-sample_evaluators_design-experimental_design-evaluators_place_of_choosing": {
+        "data": {
+            "": "N/A"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-experimental_design-what_evaluators_see-link": {
+        "data": {
+            "": "https://docs.google.com/forms/d/e/1FAIpQLSe1Df782CY1Kh5UFgpAUkvSobM7W5Pg11ra290q0_MucV5kLA/viewform?usp=sharing"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion": {
+        "data": {},
+        "control": {
+            "Naturalness": true
+        },
+        "text": {}
+    },
+    "heds-criteria-criterion-criteria-quality_type-other_text": {
+        "data": {
+            "Naturalness": ""
+        },
+        "control": {}
+    },
+    "heds-system-input_languages-55": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "55. German"
+        }
+    },
+    "heds-criteria-criterion-criteria-quality_type-3": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-experimental_design-evaluators_can_ask_questions-5": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-sample_evaluators_design-sample-system_output_selection-2": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-form_of_response-8": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-size_of_scale-3": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-scale_presented_as-3": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-criteria-criterion-criteria-output_aspect-2": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-evaluators-number_of_evaluators": {
+        "data": {
+            "": "157"
+        },
+        "control": {}
+    },
+    "heds-system-input_types-5": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "5. text: sentence"
+        }
+    },
+    "heds-sample_evaluators_design-experimental_design-experimental_conditions-3": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-form_of_response-1": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-size_of_scale-other_text": {
+        "data": {
+            "Naturalness": "3"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-experimental_design-evaluator_freedom-3": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "3. neither of the above (please describe)"
+        }
+    },
+    "heds-sample_evaluators_design-sample-statistical_power-method": {
+        "data": {
+            "": "N/A"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-sample-system_output_selection-4": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-scale_presented_as-4": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-evaluators-characteristics": {
+        "data": {
+            "": "All are from academia (students, researchers, etc) because the inivitation to participate was sent to academic mailing lists and shared on academic platforms."
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-inter_annotator-agreement-1": {
+        "data": {
+            "Naturalness": true
+        },
+        "control": {},
+        "text": {
+            "Naturalness": "1. yes"
+        }
+    },
+    "heds-criteria-criterion-criteria-self_vs_external_frame-2": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-ethics-impact_assessments": {
+        "data": {
+            "": "No"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-size_of_scale-1": {
+        "data": {
+            "Naturalness": true
+        },
+        "control": {},
+        "text": {
+            "Naturalness": "1. Discrete"
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-participant_criterion_definiiton": {
+        "data": {
+            "Naturalness": "Bitte höre dir beide Audios genau ein mal an (am besten mit Kopfhörern) und wähle dann aus, welches von beiden das bessere ist, oder ob sie beide etwa gleich gut waren.\n\n(translation: \"Please listen to both audio recordings exactly once (preferably with headphones) and then choose which of the two is better, or whether they were both about equally good.\")"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-experimental_design-experimental_conditions-5": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-criteria-criterion-criteria-output_aspect-3": {
+        "data": {
+            "Naturalness": true
+        },
+        "control": {},
+        "text": {
+            "Naturalness": "3. Both form and content of output"
+        }
+    },
+    "heds-criteria-criterion-evaluation_mode-absolute_or_relative-other_text": {
+        "data": {
+            "Naturalness": ""
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-experimental_design-experimental_conditions-2": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-scale_presented_as-5": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-experimental_design-experimental_conditions-8": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-system-output_languages-55": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "55. German"
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-form_of_response-6": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-payment-3": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "3. not paid"
+        }
+    },
+    "heds-sample_evaluators_design-sample-system_output_selection-1": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-system-tasks-other_text": {
+        "data": {
+            "": "Text-to-Speech"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-inter_annotator-agreement_score": {
+        "data": {
+            "Naturalness": "Across all questions: 0.12 ; System 1 (FastSpeech) questions:  0.18 ; System 2 (Tacotron) questions: 0.055"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-expertise-2": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "2. non-experts"
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-verbatim_question": {
+        "data": {
+            "Naturalness": "Welche Sprachaufnahme ist besser?\n(translation: \"Which recording is better?\")"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-known_to_authors-2": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-payment-1": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-criteria-criterion-evaluation_mode-objective_or_subjective-2": {
+        "data": {
+            "Naturalness": true
+        },
+        "control": {},
+        "text": {
+            "Naturalness": "2. Subjective"
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-form_of_response-4": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-known_to_authors-other_text": {
+        "data": {
+            "": "Mixed: some will be known, others not (invitation sent to email lists, no personal details collected)"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-criteria-output_aspect-other_text": {
+        "data": {
+            "Naturalness": ""
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-criteria-quality_type-2": {
+        "data": {
+            "Naturalness": true
+        },
+        "control": {},
+        "text": {
+            "Naturalness": "2. Goodness"
+        }
+    },
+    "heds-sample_evaluators_design-sample-system_output_selection-other_text": {
+        "data": {
+            "": "I do not have information on this - the original paper (https://aclanthology.org/2022.acl-long.472.pdf) mentions that the samples are \"phonetically balanced\" (Section 4.2.2)"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-sample-system_output_selection-5": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "5. other (please describe)"
+        }
+    },
+    "heds-sample_evaluators_design-experimental_design-evaluator_freedom-other_text": {
+        "data": {
+            "": "Google Form that can be completed at each evaluator's own convenience"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-evaluation_mode-absolute_or_relative-2": {
+        "data": {
+            "Naturalness": true
+        },
+        "control": {},
+        "text": {
+            "Naturalness": "2. Relative"
+        }
+    },
+    "heds-paper_and_resources-names_and_affiliations-contact_author-name": {
+        "data": {
+            "": "N/A"
+        },
+        "control": {}
+    },
+    "heds-ethics-special_category_data": {
+        "data": {
+            "": "No"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-experimental_design-experimental_conditions-6": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-list_or_range": {
+        "data": {
+            "Naturalness": "Audio 1 better, Audio 2 better, both about equally good"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-evaluators-recruitment_method": {
+        "data": {
+            "": "We sent emails to researchers at our lab, other labs and groups within our school, and a mailing list of NLP people in Switzerland. It was also shared on a mailing list of students who agree to take part in surveys. People needed to identify as native speakers of German or Swiss German."
+        },
+        "control": {}
+    },
+    "heds-paper_and_resources-names_and_affiliations-contact_author-email": {
+        "data": {
+            "": "N/A"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-known_to_authors-1": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-sample_evaluators_design-sample-system_output_selection-3": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-sample_evaluators_design-evaluators-training_practice": {
+        "data": {
+            "": "Explanation at the start of the online survey:\n\nJede Frage enthält zwei kurze Audios. Bitte höre dir beide Audios genau ein mal an (am besten mit Kopfhörern) und wähle dann aus, welches von beiden das bessere ist, oder ob sie beide etwa gleich gut waren. Denke nicht zu viel darüber nach, sondern entscheide am besten spontan."
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-payment-4": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-criteria-criterion-criteria-self_vs_external_frame-3": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-are_authors-1": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-paper_and_resources-paper-link": {
+        "data": {
+            "": "Paper currently under review"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-evaluation_mode-intrinsic_or_extrinsic-other_text": {
+        "data": {
+            "Naturalness": ""
+        },
+        "control": {}
+    },
+    "heds-ethics-personal_data": {
+        "data": {
+            "": "No"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-experimental_design-experimental_conditions-4": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-intra_annotator-intra_annotator_agreement-2": {
+        "data": {
+            "Naturalness": true
+        },
+        "control": {},
+        "text": {
+            "Naturalness": "2. no"
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-intra_annotator-intra_annotator_agreement-other_text": {
+        "data": {
+            "Naturalness": ""
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-experimental_design-collection_method": {
+        "data": {
+            "": "Google form: https://docs.google.com/forms/d/e/1FAIpQLSe1Df782CY1Kh5UFgpAUkvSobM7W5Pg11ra290q0_MucV5kLA/viewform?usp=sharing"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-inter_annotator-agreement-other_text": {
+        "data": {
+            "Naturalness": "Krippendorff's alpha was calculated on the form responses.\nThe resulting values were:\n"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-experimental_design-what_evaluators_see-description": {
+        "data": {
+            "": "For each evaluation question, they see the following elements\n\n1) two videos with static black screens below each other, labelled \"Audio 1\" and \"Audio 2\" (\"Audio 1\" is always first, \"Audio 2\" always second).\n2) below the videos, they see the question to be answered, which is always the same: Welche Sprachaufnahme ist besser? (tr: which audio is better?)\n\n3) below the question, the answer options are shown:\n- Audio 1 ist deutlich besser als Audio 2 (tr: audio 1 is significantly better than audio 2)\n- Audio 2 ist deutlich besser als Audio 1 (tr: audio 2 is significantly better than audio 1)\n- Audio 1 und Audio 2 waren etwa gleich gut (tr: audio 1 and audio 2 were about equally good)\n\n"
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-experimental_design-preregistered-2": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "2. no"
+        }
+    },
+    "heds-criteria-criterion-criteria-self_vs_external_frame-1": {
+        "data": {
+            "Naturalness": true
+        },
+        "control": {},
+        "text": {
+            "Naturalness": "1. Quality of output in its own right"
+        }
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-payment-2": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-sample_evaluators_design-experimental_design-preregistered-1": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-sample_evaluators_design-experimental_design-preregistered-other_text": {
+        "data": {
+            "": ""
+        },
+        "control": {}
+    },
+    "heds-paper_and_resources-resources-links": {
+        "data": {
+            "": "- Repository with information, survey results and evaluation scripts: https://github.com/manhue/repronlp2023_lux_and_vu\n- System output (audio files) on ReproHum GoogleDrive: https://drive.google.com/drive/folders/1lfZ2fvunJeblUVa2La_78PLjPhAXlVHk\n- YouTube videos (internal record, they are not public): https://www.youtube.com/playlist?list=PL6jq44kSiPjn962CLEavo-0WuYarwUccP\n- Google form: https://docs.google.com/forms/d/e/1FAIpQLSe1Df782CY1Kh5UFgpAUkvSobM7W5Pg11ra290q0_MucV5kLA/viewform?usp=sharing"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-criteria-self_vs_external_frame-other_text": {
+        "data": {
+            "Naturalness": ""
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-expertise-3": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-sample_evaluators_design-sample-statistical_power-value": {
+        "data": {
+            "": "N/A"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-inter_annotator-agreement-3": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-are_authors-other_text": {
+        "data": {
+            "": ""
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-inter_annotator-agreement-2": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-form_of_response-3": {
+        "data": {
+            "Naturalness": true
+        },
+        "control": {},
+        "text": {
+            "Naturalness": "3. relative quality estimation (including ranking)"
+        }
+    },
+    "heds-paper_and_resources-paper-experiment_identification": {
+        "data": {
+            "": "Paper currently under review - preference study for German Text-to-Speech."
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-are_authors-3": {
+        "data": {
+            "": false
+        },
+        "control": {},
+        "text": {
+            "": ""
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-form_of_response-other_text": {
+        "data": {
+            "Naturalness": ""
+        },
+        "control": {}
+    },
+    "heds-sample_evaluators_design-evaluators-evaluators-known_to_authors-3": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "3. N/A (please describe)"
+        }
+    },
+    "heds-sample_evaluators_design-sample-statistical_power-script": {
+        "data": {
+            "": "N/A"
+        },
+        "control": {}
+    },
+    "heds-criteria-criterion-response_elicitation-scale_presented_as-1": {
+        "data": {
+            "Naturalness": true
+        },
+        "control": {},
+        "text": {
+            "Naturalness": "1. Multiple-choice options"
+        }
+    },
+    "heds-criteria-criterion-response_elicitation-form_of_response-11": {
+        "data": {
+            "Naturalness": false
+        },
+        "control": {},
+        "text": {
+            "Naturalness": ""
+        }
+    },
+    "heds-paper_and_resources-names_and_affiliations-person_completing_this_sheet-email": {
+        "data": {
+            "": "manuela.huerlimann@zhaw.ch"
+        },
+        "control": {}
+    },
+    "heds-system-output_types-10": {
+        "data": {
+            "": true
+        },
+        "control": {},
+        "text": {
+            "": "10. speech"
+        }
+    }
+}
