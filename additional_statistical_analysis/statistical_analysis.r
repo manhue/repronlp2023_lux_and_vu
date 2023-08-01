@@ -28,75 +28,63 @@ taco_daten <- agg_data[agg_data$Method == "tacotron",]
 p_original_fs_preferred <- 0.25 # Ratio of Response "Fastspeech-proposed is better than Tacotron-baseline" in original study
 p_original_taco_preferred <- 0.52 # Ratio of Response "Tacotron-proposed is better than Tacotron-baseline" in original study
 
-# Distribution Analysis
 
-# Boxplots
-jpeg(file="plots/boxplot_fastspeech.jpeg")
-boxplot(fs_daten$x, ylim = c(0,1), col="#49A4B9",
-        main = "Preference for Fastspeech-proposed", ylab = "agreement ratio", notch = TRUE)
-abline(h = p_original_fs_preferred, col = "blue", lwd = 2) # Vergleichswert von Studie A
-text(0.7,p_original_fs_preferred, pos = 1, "Original study", col = "blue")
+# Distribution Analysis: Visualise preference value & confidence intervals of binomial test
+# Original order
+jpeg(file="plots/binomial_test.jpeg")
+bfast <- binom.test(x = sum(fs_daten$x > 0.5), n = nrow(fs_daten), p = p_original_fs_preferred)
+btaco <- binom.test(x = sum(taco_daten$x > 0.5), n = nrow(taco_daten), p = p_original_taco_preferred)
+plot(0,0, type = "n", ylim = c(0,1), xlim = c(0.5,2.5), las = 1, xlab = "System",
+     ylab = "Agreement Ratio", xaxt = "n")
+axis(1, c(1,2), c("Fastspeech","Tacotron"))
+points(1,bfast$estimate, pch = 19, col = "blue")
+points(1,p_original_fs_preferred, pch = 17, col = "darkblue")
+arrows(1,bfast$conf.int[1],1,bfast$conf.int[2], angle = 90, length = 0.1, code = 3)
+points(2,btaco$estimate, pch = 19, col = "green")
+points(2,p_original_taco_preferred, pch = 17, col = "chartreuse4")
+arrows(2,btaco$conf.int[1],2,btaco$conf.int[2], angle = 90, length = 0.1, code = 3)
+# Add values as labels
+# fastspeech (left side)
+text(1.15, bfast$estimate, col = "blue", labels = round(bfast$estimate, digits=3))
+text(1.15, p_original_fs_preferred, col = "darkblue", labels = p_original_fs_preferred)
+text(0.85, bfast$conf.int[1], col = "black", labels = round(bfast$conf.int[1], 3))
+text(0.85, bfast$conf.int[2], col = "black", labels = round(bfast$conf.int[2], 3))
+# tacotron (right side)
+text(2.15, btaco$estimate, col = "green", labels = round(btaco$estimate, digits=3))
+text(2.15, p_original_taco_preferred, col = "chartreuse4", labels = p_original_taco_preferred)
+text(1.85, btaco$conf.int[1], col = "black", labels = round(btaco$conf.int[1], 3))
+text(1.85, btaco$conf.int[2], col = "black", labels = round(btaco$conf.int[2], 3))
 dev.off()
 
-jpeg(file="plots/boxplot_fastspeech_absline_transposed.jpeg")
-boxplot(fs_daten$x, ylim = c(0,1), col="#49A4B9",
-        main = "Preference for Fastspeech-proposed", ylab = "agreement ratio", notch = TRUE)
-abline(h = p_original_taco_preferred, col = "blue", lwd = 2) # Vergleichswert von Studie A
-text(0.7,p_original_taco_preferred, pos = 1, "Original study", col = "blue")
-dev.off()
-
-jpeg(file="plots/boxplot_taco.jpeg")
-boxplot(taco_daten$x, ylim = c(0,1), col="#49A4B9",
-        main = "Preference for Tacotron-proposed", ylab = "agreement ratio", notch = TRUE)
-abline(h = p_original_taco_preferred, col = "blue", lwd = 2) # Vergleichswert von Studie A
-text(0.7,p_original_taco_preferred, pos = 1, "Original study", col = "blue")
-dev.off()
-
-jpeg(file="plots/boxplot_taco_absline_transposed.jpeg")
-boxplot(taco_daten$x, ylim = c(0,1), col="#49A4B9",
-        main = "Preference for Tacotron-proposed", ylab = "agreement ratio", notch = TRUE)
-abline(h = p_original_fs_preferred, col = "blue", lwd = 2) # Vergleichswert von Studie A
-text(0.7,p_original_fs_preferred, pos = 1, "Original study", col = "blue")
-dev.off()
-
-
-# Histogramms
-jpeg(file="plots/histogram_fastspeech.jpeg")
-hist(fs_daten$x,  xlim = c(0,1), col="#49A4B9",
-     main = "Preference for Fastspeech-proposed: Histogram", ylab = "Number of evaluators",
-     xlab = "Preference for FS-proposed", breaks = seq(0,1,0.05))
-abline(v = p_original_fs_preferred, col = "blue", lwd = 2) # Vergleichswert von Studie A
-text(0.7,p_original_fs_preferred, pos = 1, "Original study", col = "blue")
-dev.off()
-
-jpeg(file="plots/histogram_fastspeech_abline_transposed.jpeg")
-hist(fs_daten$x,  xlim = c(0,1), col="#49A4B9",
-     main = "Preference for Fastspeech-proposed: Histogram", ylab = "Number of evaluators",
-     xlab = "Preference for FS-proposed", breaks = seq(0,1,0.05))
-abline(v = p_original_taco_preferred, col = "blue", lwd = 2) # Vergleichswert von Studie A
-text(0.7,p_original_taco_preferred, pos = 1, "Original study", col = "blue")
-dev.off()
-
-
-jpeg(file="plots/histogram_taco.jpeg")
-hist(taco_daten$x,  xlim = c(0,1), col="#49A4B9",
-     main = "Preference for Tacotron-proposed: Histogram", ylab = "Number of evaluators",
-     xlab = "Preference Taco-proposed", breaks = seq(0,1,0.05))
-abline(v = p_original_taco_preferred, col = "blue", lwd = 2) # Vergleichswert von Studie A
-text(0.7,p_original_taco_preferred, pos = 1, "Original study", col = "blue")
-dev.off()
-
-jpeg(file="plots/histogram_taco_abline_transposed.jpeg")
-hist(taco_daten$x,  xlim = c(0,1), col="#49A4B9",
-     main = "Preference for Tacotron-proposed: Histogram", ylab = "Number of evaluators",
-     xlab = "Preference Taco-proposed", breaks = seq(0,1,0.05))
-abline(v = p_original_fs_preferred, col = "blue", lwd = 2) # Vergleichswert von Studie A
-text(0.7,p_original_fs_preferred, pos = 1, "Original study", col = "blue")
+# Transposed order
+jpeg(file="plots/binomial_test_transposed.jpeg")
+bfast <- binom.test(x = sum(fs_daten$x > 0.5), n = nrow(fs_daten), p = p_original_taco_preferred)
+btaco <- binom.test(x = sum(taco_daten$x > 0.5), n = nrow(taco_daten), p = p_original_fs_preferred)
+plot(0,0, type = "n", ylim = c(0,1), xlim = c(0.5,2.5), las = 1, xlab = "System",
+     ylab = "Agreement Ratio", xaxt = "n")
+axis(1, c(1,2), c("Fastspeech","Tacotron"))
+points(2,bfast$estimate, pch = 19, col = "blue")
+points(1,p_original_fs_preferred, pch = 17, col = "darkblue")
+arrows(2,bfast$conf.int[1],2,bfast$conf.int[2], angle = 90, length = 0.1, code = 3)
+points(1,btaco$estimate, pch = 19, col = "green")
+points(2,p_original_taco_preferred, pch = 17, col = "chartreuse4")
+arrows(1,btaco$conf.int[1],1,btaco$conf.int[2], angle = 90, length = 0.1, code = 3)
+# Add values as labels
+# fastspeech (right side)
+text(2.15, bfast$estimate, col = "blue", labels = round(bfast$estimate, digits=3))
+text(1.15, p_original_fs_preferred, col = "darkblue", labels = p_original_fs_preferred)
+text(1.85, bfast$conf.int[1], col = "black", labels = round(bfast$conf.int[1], 3))
+text(1.85, bfast$conf.int[2], col = "black", labels = round(bfast$conf.int[2], 3))
+# tacotron (left side)
+text(1.15, btaco$estimate, col = "green", labels = round(btaco$estimate, digits=3))
+text(2.15, p_original_taco_preferred, col = "chartreuse4", labels = p_original_taco_preferred)
+text(0.85, btaco$conf.int[1], col = "black", labels = round(btaco$conf.int[1], 3))
+text(0.85, btaco$conf.int[2], col = "black", labels = round(btaco$conf.int[2], 3))
 dev.off()
 
 
 
-# Vorzeichentest
+# Binomial Test repeat results per-person vs original results
 # Fastspeech
 binom.test(x = sum(fs_daten$x > 0.5), n = nrow(fs_daten), p = p_original_fs_preferred)
 #binom.test(x = sum(fs_daten$x > p_original_fs_preferred), n = nrow(fs_daten))
@@ -109,6 +97,14 @@ binom.test(x = sum(taco_daten$x > 0.5), n = nrow(taco_daten), p = p_original_tac
 
 # Tacotron Transposed
 binom.test(x = sum(taco_daten$x > 0.5), n = nrow(taco_daten), p = p_original_fs_preferred) # transposed
+
+
+# Binomial Test repeat results per-person preference data vs repeat results aggregated preference
+# Fastspeech
+binom.test(x = sum(fs_daten$x > 0.5), n = nrow(fs_daten), p = 0.29)
+
+# Tacotron
+binom.test(x = sum(taco_daten$x > 0.5), n = nrow(taco_daten), p = 0.5)
 
 
 
