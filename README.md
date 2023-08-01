@@ -11,9 +11,14 @@ This repository contains code, data and information for our participation in the
   * _aggregated_form_data.csv_: the survey form responses aggregated as preferences per system per person
   * _prepare_data_for_statistical_evaluation.py_: create file _aggregated_form_data.csv_ from _survey_results/answers_gform.csv_
   * _statistical_analysis.r_: R script to:
-    * create boxplots and heatmaps
-    * run binomial test
+    * run binomial test and create visualisations
     * run linear mixed-effects model and calculate odds ratio
+  
+* _error_analysis_audio_video_:
+    * _audio_files_:  .wav files provided by authors of original study
+    * _heatmaps_: resulting visualisation of distance between audios and videos (result of running _compare_audio_and_video_files.py_)
+    * _videos_: .mov files created for the repeat experiment survey
+    * _compare_audio_and_video_files.py_: Run a comparison of the audio and video files based on MFCC features.
 
 * _google_form_pdf_: contains a PDF export of the Google Form that was used for the survey
 
